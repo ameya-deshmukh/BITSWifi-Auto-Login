@@ -2,8 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import sys
-import os
-from dotenv import load_dotenv
 
 # import subprocess  -- future work to see which wifi connection connected to
 
@@ -28,11 +26,9 @@ except:
 
 #User credentials, please modify it according to your needs
 
-load_dotenv()
+uname="xyz"
 
-uname=os.getenv('USERNAME')
-
-pwd = os.getenv('PASSWORD')
+pwd = "123"
 
 #Login process
 username=driver.find_element(By.ID, "username")
