@@ -10,7 +10,7 @@ Firstly, clone this repo and navigate to it
 ```
 Now, install the requirements by running this command:
 ```
-$ python3 -m pip install requirements
+$ python3 -m pip install -r requirements
 
 ```
 Now, use your favourite code/text editor to edit script.py according to your username and password
