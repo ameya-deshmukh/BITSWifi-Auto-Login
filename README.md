@@ -1,5 +1,5 @@
 # BITS WiFi Auto Login
-Script for automating the login process for BITS Student WiFi
+Script for automating the login process for BITS Student WiFi. Uses headless Chrome with Selenium so that you don't get annoyed with pop-ups :D
 
 ## How to use this script:
 Firstly, clone this repo and navigate to it
